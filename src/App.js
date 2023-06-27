@@ -5,8 +5,8 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 import ContactMe from './components/ContactMe'
-import './App.css';
 import {Routes, Route} from 'react-router-dom'
+import "./index.css"
 
 
 function App(){

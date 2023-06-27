@@ -1,12 +1,12 @@
 import React from 'react'
 
-function AboutMe(){
+function Projects(){
     return(
         <div>
-            <div>About Me</div>
+            <div>Projects</div>
         </div>
 
     )
 }
 
-export default AboutMe
+export default Projects
