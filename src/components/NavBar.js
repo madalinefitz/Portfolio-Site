@@ -16,7 +16,7 @@ function NavBar(){
                         </div>
                         <div class="hover:bg-[#fce4d8] basis-1/5 aspect-square min-h-[auto] w-25 text-center text-lg p-5">
                             <NavLink to='/aboutme' exact>
-                                ABOUT ME
+                                ABOUT
                             </NavLink>
                         </div>
                         <div class="hover:bg-[#fce4d8] basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg p-5">
@@ -31,7 +31,7 @@ function NavBar(){
                         </div>
                         <div class="hover:bg-[#fce4d8] basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg p-5">
                             <NavLink to='/contactme' exact>
-                                CONTACT ME
+                                CONTACT
                             </NavLink>
                         </div>
                     </div>
