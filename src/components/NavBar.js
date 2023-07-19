@@ -6,30 +6,30 @@ function NavBar(){
 
     return(
         <div>
-        <nav class="bg-white z-20 shrink-0 grow-0 gap-4  dark:bg-slate-800/50 fixed top-2/4 -translate-y-2/4 right-20  min-w-[64px]">
-            <div class="divide-y-[1px] divide-black flex flex-col h-screen p-10">
+        <nav class="bg-white shrink-0 grow-0 fixed  right-6  min-w-[64px]">
+            <div class="divide-y divide-black flex flex-col h-screen p-5">
 
-                        <div class="hover:bg-[#fce4d8] p-2 basis-1/5 aspect-square min-h-[auto] w-25 text-center text-lg pt-10">
+                        <div class="hover:bg-[#fce4d8] basis-1/5 aspect-square min-h-[auto] w-25 text-center text-lg p-8 whitespace-normal">
                             <NavLink to='/' exact>
                                 HOME
                             </NavLink>
                         </div>
-                        <div class="hover:bg-[#fce4d8] p-2 basis-1/5 aspect-square min-h-[auto] w-25 text-center text-lg pt-10">
+                        <div class="hover:bg-[#fce4d8] basis-1/5 aspect-square min-h-[auto] w-25 text-center text-lg p-5">
                             <NavLink to='/aboutme' exact>
                                 ABOUT ME
                             </NavLink>
                         </div>
-                        <div class="hover:bg-[#fce4d8] p-2 basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg pt-10">
+                        <div class="hover:bg-[#fce4d8] basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg p-5">
                             <NavLink to='/resume' exact>
                                 RESUME
                             </NavLink>
                         </div>
-                        <div class="hover:bg-[#fce4d8] p-2 basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg pt-10">
+                        <div class="hover:bg-[#fce4d8] basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg p-5">
                             <NavLink to='/projects' exact>
                                 PROJECTS
                             </NavLink>
                         </div>
-                        <div class="hover:bg-[#fce4d8] p-2 basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg pt-10">
+                        <div class="hover:bg-[#fce4d8] basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg p-5">
                             <NavLink to='/contactme' exact>
                                 CONTACT ME
                             </NavLink>
