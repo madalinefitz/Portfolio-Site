@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {ReactPDF} from 'react'
+import resume from './resume.pdf'
 
 function Resume(){
     return(
         <div>
-            <div>Resume</div>
+            <object class="h-screen w-screen" data={resume} type="application/pdf"/> 
         </div>
 
     )
