@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import {NavLink} from 'react-router-dom'
 
 function NavBar(){
-    const [navBar, setNavBar]= useState(<NavLink to='/' exact>Home</NavLink>)
 
     return(
         <div>
