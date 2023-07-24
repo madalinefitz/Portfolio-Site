@@ -9,28 +9,28 @@ function NavBar(){
             <div class="divide-y divide-[#FFECE1] flex flex-col h-screen p-5 text-[#FFECE1] align-middle">
 
                         
-                        <div class="hover:bg-[#fce4d8] hover:bg-opacity-30 basis-1/5 aspect-square min-h-[auto] w-25 text-center">
+                        <div class="hover:bg-[#fce4d8] hover:bg-opacity-30 basis-1/5 aspect-square min-h-[auto] w-25 text-center px-5 pt-14">
                             <NavLink to='/' exact>
                                 HOME
                             </NavLink>
                        
                         </div>
-                        <div class="hover:bg-[#FFEE98] hover:bg-opacity-30  basis-1/5 aspect-square min-h-[auto] w-25 text-center text-lg p-5">
+                        <div class="hover:bg-[#FFEE98] hover:bg-opacity-30  basis-1/5 aspect-square min-h-[auto] w-25 text-center text-lg px-5 pt-14">
                             <NavLink to='/aboutme' exact>
                                 ABOUT
                             </NavLink>
                         </div>
-                        <div class="hover:bg-[#EFA11B] hover:bg-opacity-30  basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg p-5">
+                        <div class="hover:bg-[#EFA11B] hover:bg-opacity-30  basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg px-5 pt-14">
                             <NavLink to='/resume' exact>
                                 RESUME
                             </NavLink>
                         </div>
-                        <div class="hover:bg-[#ED8A65] hover:bg-opacity-30 basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg p-5">
+                        <div class="hover:bg-[#ED8A65] hover:bg-opacity-30 basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg px-5 pt-14">
                             <NavLink to='/projects' exact>
                                 PROJECTS
                             </NavLink>
                         </div>
-                        <div class="hover:bg-[#ED6565] hover:bg-opacity-30 basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg p-5">
+                        <div class="hover:bg-[#ED6565] hover:bg-opacity-30 basis-1/5  aspect-square min-h-[auto] w-25 text-center text-lg px-5 pt-14">
                             <NavLink to='/contactme' exact>
                                 CONNECT
                             </NavLink>
