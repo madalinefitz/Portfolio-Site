@@ -5,7 +5,7 @@ function NavBar(){
 
     return(
         <div>
-        <nav class="bg-[#FFC39E] fixed  right-6  min-w-[64px]">
+        <nav class="bg-[#FFC39E] fixed right-6  min-w-[64px]">
             <div class="divide-y divide-[#FFECE1] flex flex-col h-screen p-5 text-[#FFECE1] align-middle">
 
                         

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects(){
     return(
-        <div>
+        <div class="bg-[#FFC39E] h-screen">
             <div>Projects</div>
         </div>
 
