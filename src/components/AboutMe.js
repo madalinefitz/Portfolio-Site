@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutMe(){
     return(
-        <div>
+        <div class="bg-[#FFC39E]">
             <div>
                 <h1>Experience</h1>
                 <p>This is space for my background and experiences</p>
