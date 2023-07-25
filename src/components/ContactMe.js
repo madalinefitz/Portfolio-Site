@@ -18,10 +18,10 @@ function ContactMe(){
     return(
         <div class="bg-[#FFC39E] h-screen flex flex-col text-[#FFECE1] p-28">
             {modal ?
-            <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+            <div>
                 <div class="fixed inset-0 bg-[#FFECE1] bg-opacity-50 transition-opacity"></div>
                     <div class="fixed inset-0 z-10 overflow-y-auto">
-                        <div class="flex min-h-full items-end justify-center p-4 text-end sm:items-center sm:p-0">
+                        <div class="flex min-h-full items-end justify-center text-end sm:items-center sm:p-0">
                             <div class="relative transform overflow-hidden rounded-lg shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
                                 <div class="bg-[#FFC39E] px-10 sm:p-6 sm:pb-10">
                                     <div class="mt-3 sm:ml-4 sm:mt-0">
