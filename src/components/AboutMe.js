@@ -1,10 +1,11 @@
 import React from 'react'
-import {plainSunset} from './plainSunset.png'
-import {meAndBird} from './meAndBird.JPG'
+import plainSunset from './plainSunset.png'
+import meAndBird from './meAndBird.png'
 
 function AboutMe(){
     return(
         <div class="bg-[#FFC39E] bg-cover px-52 py-20">
+            {/* <img src={plainSunset}/> */}
             <div class="bg-[#ED8A65] bg-opacity-75 text-center p-5 m-10 text-[#FFECE1] shadow-md rounded-md">
                 <h1 class="text-4xl font-bold">Experience</h1>
                 <p class="whitespace-pre-line p-5 text-xl">As a software engineer I am pursuing a career in which I can mix logic, creativity, and problem solving skills to build innovate solutions. I have grown in several languages and frameworks, built projects with teams and independently, and am constantly learning more.</p>
@@ -38,8 +39,10 @@ function AboutMe(){
             </div>
             <div class="bg-[#ED8A65] bg-opacity-75 text-center p-5 m-10 text-[#FFECE1] shadow-md rounded-md">
                 <h1 class="text-4xl font-bold">For Fun</h1>
-                <p class="whitespace-pre-line p-10 text-xl">I love spending time outside and often go hiking with my pup, Birdie. Exploring new places is also a favorite way to spend a free day. It's not always possible to travel too far, so I'll look up a restaurant or coffee shop I've never been to or a new hiking trail. </p>
-                <img src={meAndBird} alt={"Me and Birdie"}/>
+                <div class="flex flex-rows">
+                    <img src={meAndBird} alt="Me and Birdie" class="shadow-md rounded-md m-10 h-80 w-80"/>
+                    <p class="whitespace-pre-line pt-10 px-20 text-xl text-left">I love spending time outside and often go hiking with my pup, Birdie. Exploring new places is also a favorite way to spend a free day. It's not always possible to travel too far, so I'll look up a restaurant or coffee shop I've never been to or a new hiking trail. </p>
+                </div>
             </div>
 
 
