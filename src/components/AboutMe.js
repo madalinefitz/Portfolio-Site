@@ -41,7 +41,7 @@ function AboutMe(){
                 <h1 class="text-4xl font-bold">For Fun</h1>
                 <div class="flex flex-rows">
                     <img src={meAndBird} alt="Me and Birdie" class="shadow-md rounded-md m-10 h-80 w-80"/>
-                    <p class="whitespace-pre-line pt-10 px-20 text-xl text-left">I love spending time outside and often go hiking with my pup, Birdie. Exploring new places is also a favorite way to spend a free day. It's not always possible to travel too far, so I'll look up a restaurant or coffee shop I've never been to or a new hiking trail. </p>
+                    <p class="whitespace-pre-line pt-10 px-20 text-xl text-left">I love spending time outside and often go hiking with my pup, Birdie. Exploring new places is also a favorite way to spend a free day. It's not always possible to travel too far, so checking out a restaurant or coffee shop I've never been to gives me a break from the familiar. </p>
                 </div>
             </div>
 

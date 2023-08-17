@@ -23,8 +23,8 @@ function NavBar(){
                         </NavLink>
                     </div>
                     <div class="hover:bg-[#ED8A65] hover:bg-opacity-30 flex basis-1/5 aspect-square min-h-[auto] w-25 px-5 aspect-square justify-center items-center">
-                        <NavLink to='/projects' exact>
-                            PROJECTS
+                        <NavLink to='/examples' exact>
+                            EXAMPLES
                         </NavLink>
                     </div>
                     <div class="hover:bg-[#ED6565] hover:bg-opacity-30 flex basis-1/5 aspect-square min-h-[auto] w-25 px-5 aspect-square justify-center items-center">
